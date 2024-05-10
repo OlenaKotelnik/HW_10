@@ -1,0 +1,47 @@
+    1  ls -l
+    2  git config --global user.name OlenaKotelnik
+    3  git config --get user.name
+    4  git config --global user.email alena.kotelnik@gmail.com
+    5  git config --get user.email
+    6  git clone https://github.com/OlenaKotelnik/HW_10.git
+    7  ls -l
+    8  cd HW_10
+    9  ls -la
+   10  touch text_ignore.txt
+   11  ls -l
+   12  vim text_ignore.txt 
+   13  vim .gitignore
+   14  ls -l
+   15  cat .gitignore
+   16  git status
+   17  git add .
+   18  gid status
+   19  git status
+   20  git commit -m "new file added"
+   21  git log
+   22  touch main_test.txt
+   23  ls -l
+   24  git add .
+   25  git status
+   26  git commit -m "new file added"
+   27  git log
+   28  git checkout -b test_branch
+   29  git status
+   30  touch develop_test.txt
+   31  ls -l
+   32  git add .
+   33  git status
+   34  git commit -m "added new file in new branch"
+   35  git log
+   36  git log
+   37  vim develop_test.txt file
+   38  ls -l
+   39  git add .
+   40  git commit -m "added new file in new branch"
+   41  git log
+   42  git checkout main
+   43  git merge develop
+   44  git merge test_branch
+   45  git status
+   46  git log
+   47  history > command_list.csv
